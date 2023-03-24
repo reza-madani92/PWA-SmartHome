@@ -87,7 +87,13 @@
 
     <div id="allDevices" class="tabcontent">
       <ul class="">
-        <li type="button" class="device1" onclick="window.location.href='oven/index.html'">
+
+        <div class="d-grid gap-2">
+          <button class="btn btn-primary device1" type="button" onclick="window.location.href='oven/index.html'">Button</button>
+          <button class="btn btn-primary device1" type="button" onclick="window.location.href='gas-stove/index.html'">Button</button>
+        </div>
+
+        <li type="button" class="device" onclick="window.location.href='oven/index.html'">
           <img class="deviceIcon" src="images/oven.png" alt="">
           <span class="deviceName">Oven</span>
           <img class="wifi" src="images/wifi.png" alt="">
