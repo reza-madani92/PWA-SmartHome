@@ -312,6 +312,16 @@ a:active {
   padding-top: 22.5px;
   padding-bottom: 22.5px;
   border-radius: 8px;
+  
+}
+
+.device1 {
+  padding: 50px;
+  font-size: 30px;  
+  background-color: rgb(110, 17, 187);
+  border-radius: 10px;
+  
+  
 }
 
 
