@@ -304,7 +304,7 @@ a:active {
 
 
 .device {
-  background-color:  rgb(114, 41, 209);
+  background-color:  rgb(41, 209, 55);
   margin-left: 6px;
   margin-right: 6px;
   margin-top: 3px;
@@ -312,7 +312,6 @@ a:active {
   padding-top: 22.5px;
   padding-bottom: 22.5px;
   border-radius: 8px;
-  height: 100;
 }
 
 
