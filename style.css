@@ -158,7 +158,7 @@ div.scrollmenu a:hover {
   color: black;
   padding-top: 15%;
   padding-left: 20%;
-  padding-right: 23%;
+  padding-right: 20%;
   padding-bottom: 15%;
   overflow: auto;
   white-space: nowrap;
@@ -169,13 +169,11 @@ div.scrollmenu a:hover {
   border-bottom: 1px solid black;
   color: black;
   padding: 2%;
-  padding-bottom: 10px;
 }
 
 .moreitem2 {
   color: black;
   padding: 2%;
-  padding-top: 10px;
 }
 
 .moreitem1:hover {
@@ -304,26 +302,32 @@ a:active {
 
 
 .device {
-  background-color:  rgb(41, 209, 55);
+  background-color:  rgb(207, 81, 81);
   margin-left: 6px;
   margin-right: 6px;
   margin-top: 3px;
   margin-bottom: 3px;
-  padding-top: 22.5px;
-  padding-bottom: 22.5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 8px;
-  height: 100px;
-  
+  height: 100px ;
 }
 
-.device1 {
-  border-radius: 8px;
-  height: 100px;
-  padding-top: 22.5px;
-  margin-left: -10px;
-  
+
+.gg {
+  height: 50px;
+  width: 50px;
+  margin-top: calc((100% - 100px)/2);
+  margin-left: calc((100% - 50px)/2);
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
 }
 
+.gg:active {
+  box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
+  scale: 0.5;
+}
 
 
 .wifi {
@@ -336,14 +340,13 @@ a:active {
 
 
 .deviceName {
-  font-size: 18px;
-  margin-left: 35px;
+  margin-left: 25px;
 }
 
 .deviceIcon {
   position: absolute;
   left: 0;
-  width: 35px;
+  width: 25px;
   margin-left: 7px;
   margin-right: 7px;
 }
@@ -378,7 +381,27 @@ a:active {
 }
 
 
-
+      .container {
+        font-size: 5em;
+        background-color: #a8a8a8;
+        color: white;
+        width: 100%;
+        height: 60px;
+        line-height: 2;
+        text-align: left;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        position: relative;
+      }
+      .link {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+      }
 
 
 

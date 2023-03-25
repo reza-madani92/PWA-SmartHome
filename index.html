@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>SmartHome</title>
     <link rel="manifest" href="manifest.json" />
     <link rel="apple-touch-icon" href="images/icons/icon-144x144.png" />
@@ -86,22 +86,18 @@
 
 
     <div id="allDevices" class="tabcontent">
-      <ul class="">
+      <ul class="list-group">
+        
 
-        <div class="d-grid gap-2">
-          <button class="btn btn-primary device1" type="button" onclick="window.location.href='oven/index.html'">Button</button>
-          <button class="btn btn-primary device1" type="button" onclick="window.location.href='gas-stove/index.html'">Button</button>
+        <li>
+          <div class="col-2 offset-1">  
+            <a role="button"><img class="gg" src="images/plus.png" alt=""></a>
         </div>
-
-        <li type="button" class="device" onclick="window.location.href='oven/index.html'">
-          <img class="deviceIcon" src="images/oven.png" alt="">
-          <span class="deviceName">Oven</span>
-          <img class="wifi" src="images/wifi.png" alt="">
         </li>
-        <li type="button" class="device" onclick="window.location.href='gas-stove/index.html'">
-          <img class="deviceIcon" src="images/stove.png" alt="">
-          <span class="deviceName">Gas Stove</span>
-          <img class="wifi" src="images/wifi.png" alt="">
+        <li class="device">
+          <div>
+            Stove
+          </div>
         </li>
         <li class="list-group-item haha"><a> </a></li>
         <li class="list-group-item haha"><a> </a></li>
@@ -145,15 +141,15 @@
                 </a>
             </div>
             <div class="col-2 offset-1">  
-              <a role="button" onclick="openPage('home','scenario')">
-                <img class="footitem" id="scenario" src="images/scenario-black.png" alt="">
-              </a>
-          </div>
-            <div class="col-2 offset-1">  
                 <a role="button" onclick="openPage('home','user')">
                   <img class="footitem" id="user" src="images/user-black.png" alt="">
                 </a>
             </div>
+            <div class="col-2 offset-1">  
+              <a role="button" onclick="openPage('home','scenario')">
+                <img class="footitem" id="scenario" src="images/scenario-black.png" alt="">
+              </a>
+          </div>
         </div>
     </nav>
 
