@@ -326,7 +326,7 @@ a:active {
 
 .gg:active {
   box-shadow: 7px 6px 28px 1px rgba(0,0,0,0.24);
-  scale: 0.5;
+  -webkit-transform: scale(0.6,0.6);
 }
 
 
